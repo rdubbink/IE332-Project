@@ -1,0 +1,56 @@
+.loginBoxes
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  gap: 20px;
+  font-size: xx-large;
+}
+
+.initialHeader
+{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.userPass
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+
+}
+.AccountPrompts
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+
+}
+.button
+{
+	background-color: white;
+	color: black;
+	padding: 15px;
+	margin: 15px;
+	border-radius:8px;
+	display: block;
+	text-align: center;
+	text-decoration:none;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;
+}
