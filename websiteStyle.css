@@ -15,7 +15,7 @@
   display: flex;
   flex-flow: column wrap;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 
 }
 
@@ -47,6 +47,23 @@
 	margin: 15px;
 	border-radius:8px;
 	display: block;
+	width:250px;
+	text-align: center;
+	text-decoration:none;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.signUpButton
+{
+	background-color: GoldenRod;
+	color: black;
+	padding: 5px;
+	margin: 15px;
+	border-radius:8px;
+	display: block;
+	width:200px;
 	text-align: center;
 	text-decoration:none;
 	border:none;
