@@ -33,9 +33,9 @@
 {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
   font-size: large;
 
 }
@@ -56,6 +56,41 @@
 	cursor:pointer;
 }
 .signUpButton
+{
+	background-color: GoldenRod;
+	color: black;
+	padding: 5px;
+	margin: 15px;
+	border-radius:8px;
+	display: block;
+	width:200px;
+	text-align: center;
+	text-decoration:none;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.homepageHeader
+{
+	background-color: black;
+	color: GoldenRod;
+	display: flex;
+	flex-flow: column wrap;
+	font-size: 20px;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li
+{
+	display: inline;
+}
+.profile
 {
 	background-color: GoldenRod;
 	color: black;
