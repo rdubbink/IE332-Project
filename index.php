@@ -7,10 +7,10 @@
 	<title>Login and Registration</title>
 	<style type="text/css">
 		body {
-			background: #E5F2E8;
-			background: -webkit-linear-gradient(top left, #E5F2E8, #CCC4D4);
-			background: -moz-linear-gradient(top left, #E5F2E8, #CCC4D4);
-			background: linear-gradient(to bottom right, #E5F2E8, #CCC4D4);
+			background: Black;
+			background: -webkit-linear-gradient(top left, Black, #333333);
+			/*background: -moz-linear-gradient(top left, #E5F2E8, #CCC4D4);*/
+			/*background: linear-gradient(to bottom right, #E5F2E8, #CCC4D4);*/
 		}
 
 		.row {
@@ -22,15 +22,19 @@
 		}
 
 		h1 {
-			color: #747eca;
+			color: GoldenRod; /*Change*/
+		}
+
+		h2 {
+			color: GoldenRod; /*Addition*/
 		}
 
 		button {
 			width: 40%;
 			padding: 20px;
     		font-size: 30px;
-    		color: white;
-    		background-color: #8a64d6;
+    		color: Black;/*Change*/
+    		background-color: GoldenRod;/*Change*/
     		border-radius: 4px;
     		border: none;
 		}
@@ -66,6 +70,7 @@
 			unset($_SESSION['success']);
 		}
 	?>
+	<!--
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <a class="navbar-brand" href="#">BoilerMatch</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +90,7 @@
 	    </ul>
 	  </div>
 	</nav>
-
+	-->
 
 	<div class="container main">
 		<div class="back">
@@ -120,7 +125,7 @@
 		<div class="student_content row content_option">
 			<div class="col-lg-7 col-md-7 student_login">
 				<h2>Student Login</h2>
-				<form>
+				<form style="color:GoldenRod"> <!--Change-->
 				 	<div class="form-group">
 				    	<label for="student_login_email">Email address</label>
 				    	<input type="email" class="form-control" id="student_login_email" aria-describedby="emailHelp">
@@ -129,13 +134,14 @@
 				    	<label for="student_login_password">Password</label>
 				    	<input type="password" class="form-control" id="student_login_password">
 				  	</div>
-				  	<button type="submit" class="btn btn-primary">Login</button>
+				  	<!-- <button type="submit" class="btn btn-primary">Login</button> -->
+						<button type="submit" style="font-size:16px">Login</button> <!--New button style-->
 				</form>
-				<p>New? Click <span id="open_student_registration" style="color: #0070ff; cursor: pointer">Here To Register</span></p>
+				<p style="color:GoldenRod">New? Click <span id="open_student_registration" style="color: white; cursor: pointer; text-decoration:underline">Here To Register</span></p> <!--Change-->
 			</div>
 			<div class="col-lg-7 col-md-7 student_registration">
 				<h2>Student Registration</h2>
-				<form>
+				<form style="color:GoldenRod"> <!--Change-->
 				 	<div class="form-group">
 				 		<label for="firstName">First Name</label>
 				    	<input type="text" class="form-control" id="firstName" aria-describedby="firstName">
@@ -157,9 +163,10 @@
 				    	<label for="student_register_conf_password">Confirm Password</label>
 				    	<input type="password" class="form-control" id="student_register_conf_password">
 				  	</div>
-				  	<button type="submit" class="btn btn-primary">Register</button>
+				  	<!-- <button type="submit" class="btn btn-primary">Register</button> -->
+						<button type="submit" style="font-size:16px">Register</button> <!--New button style-->
 				</form>
-				<p>Already A Member? Click <span  id="open_student_login" style="color: #0070ff; cursor: pointer">Here To Login</span></p>
+				<p style="color:GoldenRod">Already A Member? Click <span  id="open_student_login" style="color: white; cursor: pointer; text-decoration:underline">Here To Login</span></p> <!--Change-->
 			</div>
 		</div>
 
@@ -197,7 +204,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
