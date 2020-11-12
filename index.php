@@ -8,7 +8,7 @@
 	<style type="text/css">
 		body {
 			background: Black;
-			background: -webkit-linear-gradient(top left, Black, #333333);
+			background: -webkit-linear-gradient(top left, #0d0d0d, #333333);
 			/*background: -moz-linear-gradient(top left, #E5F2E8, #CCC4D4);*/
 			/*background: linear-gradient(to bottom right, #E5F2E8, #CCC4D4);*/
 		}
@@ -173,7 +173,7 @@
 		<div class="employer_content row content_option">
 			<div class="col-lg-7 col-md-7 employer_login">
 				<h2>Employer Login</h2>
-				<form>
+				<form style="color:GoldenRod"><!--Change-->
 				 	<div class="form-group">
 				    	<label for="corp_email">Corporate Email address</label>
 				    	<input type="email" class="form-control" id="corp_email" aria-describedby="emailHelp">
@@ -182,7 +182,8 @@
 				    	<label for="corp_password">Password</label>
 				    	<input type="password" class="form-control" id="corp_password">
 				  	</div>
-				  	<button type="submit" class="btn btn-primary">Login</button>
+				  	<!--<button type="submit" class="btn btn-primary">Login</button>-->
+						<button type="submit" style="font-size:16px">Login</button> <!--New button style-->
 				</form>
 			</div>
 		</div>
@@ -190,7 +191,7 @@
 		<div class="staff_content row content_option">
 			<div class="col-lg-7 col-md-7 staff_login">
 				<h2>IE Staff Login</h2>
-				<form>
+				<form style="color:GoldenRod"><!--Change-->
 				 	<div class="form-group">
 				    	<label for="staff_email">IE Staff Email address</label>
 				    	<input type="email" class="form-control" id="staff_email" aria-describedby="emailHelp">
@@ -199,7 +200,8 @@
 				    	<label for="staff_password">Password</label>
 				    	<input type="password" class="form-control" id="staff_password">
 				  	</div>
-				  	<button type="submit" class="btn btn-primary">Login</button>
+				  	<!--<button type="submit" class="btn btn-primary">Login</button>-->
+						<button type="submit" style="font-size:16px">Login</button> <!--New button style-->
 				</form>
 			</div>
 		</div>

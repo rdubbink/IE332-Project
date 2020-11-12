@@ -4,14 +4,18 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Login and Registration</title>
+	<title>Job Listing</title>
 	<style type="text/css">
 		body {
+			background: Black;
+			background: -webkit-linear-gradient(top left, #0d0d0d, #333333);
+		}
+		/*body {
 			background: #E5F2E8;
 			background: -webkit-linear-gradient(top left, #E5F2E8, #CCC4D4);
 			background: -moz-linear-gradient(top left, #E5F2E8, #CCC4D4);
 			background: linear-gradient(to bottom right, #E5F2E8, #CCC4D4);
-		}
+		}*/
 
 		.row {
 			justify-content: center;
@@ -37,8 +41,8 @@
 			padding-right: 30px;
 			border: none;
 			border-radius: 4px;
-			background-color: #a184bd;
-			color: white;
+			background-color: GoldenRod;
+			color: Black;
 			margin-top: 20px;
 		}
 
@@ -46,7 +50,8 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">BoilerMatch</a>
+	  <img src=BoilerMatchLogo.jpg style="width:200px; height:60px">
+		<!--<a class="navbar-brand" href="#">BoilerMatch</a>-->
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -77,11 +82,11 @@
 						</div>
 						<div class="col-lg-8 col-md-8" style="text-align: center; margin-top: 40px;">
 							<h1>Data Analyst</h1>
-							<p style="color: #717275">Menlo Park, CA</p>
+							<p>Menlo Park, CA</p>
 							<p style="text-align: left;">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor nunc at magna facilisis fermentum. Duis eu hendrerit velit. Vestibulum et augue non sapien imperdiet aliquet. Pellentesque nibh odio, pretium et ligula et, varius maximus velit. Ut suscipit dui nec auctor egestas. Suspendisse euismod elit vel eros consectetur viverra. Vestibulum viverra ac nisl sed imperdiet. In sed lacus a turpis rutrum congue. Maecenas lacus lacus, ultricies ultricies purus sed, tempor semper neque. Vivamus ex diam, aliquet vestibulum hendrerit vel, tempor quis augue. Vivamus condimentum bibendum arcu, ac dignissim dui iaculis id. Pellentesque in dictum tellus. Morbi at nisi vel ex aliquam vestibulum in id arcu. Morbi elementum mauris nec arcu rhoncus, vitae volutpat neque congue. Nulla iaculis nisi eu enim vulputate, eget venenatis tortor placerat.
 							</p>
-							<h5 style="text-align: left; color: #a18abb">Minimum Requirements</h5>
+							<h5 style="text-align: left; color: GoldenRod">Minimum Requirements</h5>
 							<p style="text-align: left;">Academic Classification - Sophomore</p>
 							<p style="text-align: left;">GPA - 3.3</p>
 							<p style="text-align: left;">Required Courses - IE 332, IE 235, IE 432</p>
@@ -98,7 +103,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
