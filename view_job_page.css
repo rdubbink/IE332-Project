@@ -1,0 +1,60 @@
+body {
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Questrial', sans-serif;
+}
+
+.row {
+	justify-content: center;
+}
+
+.profile_content {
+	min-height: 400px;
+	background: #F2994A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 100px;
+	padding-top: 50px;
+}
+
+.main {
+	margin-top: 100px;
+	color: white;
+}
+
+.search-holder {
+			display: none;
+}
+
+.exec-search {
+	display: none
+}
+
+.apply_button {
+	padding: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: none;
+	border-radius: 4px;
+	background-color: #433b4a;
+	color: white;
+	margin-top: 20px;
+}
+
+.w-120 {
+	width: 120px;
+}
+
+.main-body {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.job-location {
+	color: #717275
+}
+
+.job-description {
+	text-align: left;
+}

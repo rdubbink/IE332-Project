@@ -1,0 +1,75 @@
+body {
+			background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			font-family: 'Questrial', sans-serif;
+		}
+
+		.row {
+			justify-content: center;
+		}
+
+		.main {
+			margin-top: 100px;
+		}
+
+		.candidate_entry {
+			background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin-top: 70px;
+	cursor: pointer;
+		}
+
+		.candidate_entry {
+			padding: 50px;
+			border-bottom: 1px solid silver;
+		}
+
+		.job_heading {
+			font-size: 24px;
+			margin-bottom: 0px;
+		}
+
+		.candidate_class {
+			color: white;
+		}
+
+		.match_strength {
+			text-align: center;
+			font-size: 22px;
+			margin-top: 20px;
+			color: white;
+		}
+
+		.description {
+			color: white;
+		}
+
+		.candidate_image {
+			width: 80px;
+			margin-left: 10px;
+		}
+
+		.options > div > p {
+			text-align: center;
+			color: #565273;
+			cursor: pointer;
+			transition-duration: 0.4s;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			font-weight: 600;
+		}
+		.options > div > p:hover {
+			background-color: #bab4ec;
+			color: white
+		}
+
+		.page-heaeder {
+			text-align: center; color: #736d6d; margin-bottom: 40px;
+		}
+
+		.nav-right {
+			float: right;
+		}

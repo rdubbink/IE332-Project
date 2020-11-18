@@ -1,0 +1,138 @@
+body {
+			background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			font-family: 'Questrial', sans-serif;
+		}
+
+		.row {
+			justify-content: center;
+		}
+
+		.main {
+			margin-top: 100px;
+		}
+
+		.filter {
+			min-height: 260px;
+			background: #EEEFF3;
+			background: -webkit-linear-gradient(top left, #EEEFF3, #EBE4F2);
+			background: -moz-linear-gradient(top left, #EEEFF3, #EBE4F2);
+			background: linear-gradient(to bottom right, #EEEFF3, #EBE4F2);
+		}
+
+		.job_feed {
+			min-height: 600px;
+			
+		}
+
+		.job_entry {
+			padding: 50px;
+			border-bottom: 1px solid silver;
+			background: #F2994A;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #F2C94C, #F2994A);
+			margin-top: 30px;
+			cursor: pointer;
+		}
+
+		.view-job-link:hover {
+			text-decoration: none !important;
+			color: black;
+		}
+
+		.view-job-link {
+			color: black;
+		}
+
+		.job_heading {
+			font-size: 24px;
+			margin-bottom: 0px;
+		}
+
+		.location {
+			color: #75777b;
+		}
+
+		.match_strength {
+			text-align: center;
+			font-size: 22px;
+			margin-top: 20px;
+			color: white;
+		}
+
+		.description {
+			color: white;
+		}
+
+		.company_logo {
+			width: 40px;
+			margin-left: 10px;
+		}
+
+		.alt_logo {
+			color: white;
+			padding-left: 10px;
+			font-size: 20px;
+		}
+
+		.options > div > p {
+			text-align: center;
+			color: #565273;
+			cursor: pointer;
+			transition-duration: 0.4s;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			font-weight: 600;
+		}
+		.options > div > p:hover {
+			background-color: #bab4ec;
+			color: white
+		}
+
+		.filter-button {
+			border: none;
+		    border-radius: 4px;
+		    background: #5c5267;
+		    padding: 2px;
+		    padding-left: 30px;
+		    padding-right: 30px;
+		    color: white;
+		}
+
+		.filter-button-parent {
+			text-align: center;
+		}
+
+		.job-feed-header {
+			text-align: center; 
+			color: #756565; 
+			margin-bottom: 40px;
+		}
+
+		.right-side-nav {
+			float: right;
+		}
+
+		.filter > h6 {
+			text-align: center;
+			padding: 15px;
+		}
+
+		.match_strength > span
+		{
+			font-size: 14px;
+		}
+
+		.search-holder {
+			display: none;
+		}
+
+		.exec-search {
+			display: none
+		}
+
+		.filter-container {
+			margin-top: 80px;
+		}

@@ -1,0 +1,116 @@
+body {
+			background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Questrial', sans-serif;
+		}
+
+		.row {
+			justify-content: center;
+		}
+
+		.main {
+			margin-top: 100px;
+		padding: 40px;
+    padding-top: 70px;
+background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 5px;
+		}
+
+		h1, h2 {
+			color: white;
+		}
+
+		button  {
+			width: 30%;
+			padding: 7px;
+    		font-size: 18px;
+    		color: white;
+    		background: #35323a !important;
+    		border-radius: 20px;
+    		border: none;
+		}
+
+		.btn {
+			color: white;
+		}
+
+		.student_content, .student_registration, .employer_content, .staff_content {
+			display: none;
+		}
+
+		svg {
+			cursor: pointer;
+		}
+
+		.back, .student_courses_info, .student_project_info, .student_work_info {
+			display: none;
+		}
+
+		.sub_title {
+			color: #7d601f;
+		}
+
+		.add_row, .add_row_projects, .add_row_work {
+			width: 14%;
+		    padding: 8px;
+		    font-size: 10px;
+		    color: white;
+		    background: #2d2710;
+		    border-radius: 4px;
+		    border: none;
+		}
+
+		.remove_row, .remove_row_projects, .remove_row_work {
+			width: 18%;
+		    padding: 7px;
+		    font-size: 14px;
+		    color: white;
+		    background: #d66464;
+		    border-radius: 4px;
+		    border: none;
+		}
+
+		.resume {
+			width: 20%;
+		    font-size: 14px;
+		    padding: 5px;
+		    background: #77a927;
+		}
+
+		button:focus {
+		    outline: 1px auto white;
+		}
+
+		.success_message {
+			font-size: 18px;
+    		color: #8ed038;
+    		text-align: center;
+		}
+
+		.main-heading {
+			font-family: 'Pacifico', cursive; font-size: 60px; color: white
+		}
+
+		.main-sub-heading {
+			margin-bottom: 50px;
+		}
+
+		.button-parent {
+			text-align: center; margin-top: 10px; margin-bottom: 10px;
+		}
+
+		#open_student_registration, #open_student_login {
+			color: #7d601f; cursor: pointer
+		}
+
+		.margin-space {
+			margin-top: 30px;
+		}
+
+		.errors {
+			color:#ff6c6c;
+		}

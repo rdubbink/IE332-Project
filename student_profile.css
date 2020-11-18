@@ -1,0 +1,176 @@
+body {
+			background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Questrial', sans-serif;
+		}
+
+		.row {
+			justify-content: center;
+		}
+
+		.main {
+			margin-top: 100px;
+		}
+
+		.profile_content {
+			min-height: 600px;
+background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			padding: 50px;
+			border-radius: 5px;
+		}
+
+		.profile_info {
+			padding-top: 25px;
+		}
+
+		.student_name {
+			font-size: 30px;
+			color: white;
+			margin-bottom: 0;
+		}
+
+		.student_bio {
+			color: #7b5731;
+		}
+
+		.classification {
+			color: white;
+		}
+
+		.options {
+			background-color: white;
+			margin-top: 50px;
+			border-radius: 5px;
+			min-height: 683px;
+		}
+
+		.option_title {
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid silver;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+
+		.option_title: hover {
+			color: white;
+			background-color: red;
+		}
+
+		.update_info {
+			width: 60%;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.input_label {
+			width: 60%;
+			text-align: left;
+		}
+
+		.search-holder {
+			display: none;
+		}
+
+		.exec-search {
+			display: none
+		}
+
+		.edit_info, .edit_work, .edit_projects{
+			width: 100%;
+			text-align: center;
+		}
+
+		.profile_header {
+			margin-bottom: 35px;
+			color: #756565;
+			font-family: 'Pacifico', cursive;
+		}
+
+		.active {
+			border-bottom-color: #e6bd27;
+		}
+
+		.button_holder > button {
+			border: none;
+			padding: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			border-radius: 4px;
+			color: white;
+			background-color: #35323a;
+		}
+
+		.button_holder {
+			text-align: center;
+		}
+
+		.success_message {
+			font-size: 18px;
+    		color: #5b8821;
+    		text-align: center;
+		}
+
+		.edit_work, .edit_courses, .edit_projects, .surveys {
+			display: none;
+		}
+
+		.block-label {
+			display: block;
+		}
+
+		.rateYo {
+			margin: 0 auto;
+		}
+
+		.company-block {
+			margin-bottom: 30px;
+		}
+
+		.companies_list {
+			max-height: 260px;
+			overflow-y: scroll;
+		}
+
+		.whole-survey {
+			display: none;
+			min-height: 550px;
+		}
+
+		.survey-button {
+			width: 30%;
+			margin-top: 30px;
+			padding: 7px;
+    		font-size: 18px;
+    		color: white;
+    		background: #35323a !important;
+    		border-radius: 20px;
+    		border: none;
+		}
+
+		.back {
+			display: none;
+			cursor: pointer;
+		}
+
+		.nav-right {
+			float: right
+		}
+
+		.mid-image {
+			width: 150px;
+		}
+
+		.centered-header {
+			text-align: center;
+		}
+
+		.centered-content {
+			justify-content: center;
+		}

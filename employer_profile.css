@@ -1,0 +1,142 @@
+body {
+			background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			font-family: 'Questrial', sans-serif;
+		}
+
+		.row {
+			justify-content: center;
+		}
+
+		.main {
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+
+		.employer_option {
+			border: none;
+			padding: 15px;
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 4px;
+			color: white;
+			background: #45404c !important;
+		}
+
+		form {
+			width: 60%;
+		}
+
+		.add_job {
+			padding: 15px;
+		    padding-left: 30px;
+		    padding-right: 30px;
+		    background: #45404c !important;
+		    color: white;
+		    border: none;
+		    margin-top: 60px;
+		}
+
+		.new_job, .view_jobs {
+			display: none
+		}
+
+		.back {
+			display: none;
+			padding-bottom: 20px;
+		}
+
+		.back > svg{
+			cursor: pointer;
+
+		}
+
+		.content_option {
+    		background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			padding: 50px;
+		}
+
+		.job_entry {
+			padding: 50px;
+			border-bottom: 1px solid silver;
+		}
+
+		.job_heading {
+			font-size: 24px;
+			margin-bottom: 0px;
+			color: white;
+		}
+
+		.location {
+			color: #ecfb70;
+		}
+
+		.match_strength {
+			text-align: center;
+			font-size: 22px;
+			margin-top: 20px;
+		}
+
+		.description {
+			color: white;
+		}
+
+		.company_logo {
+			width: 40px;
+			margin-left: 10px;
+		}
+
+		.job_option {
+			width: 80%;
+			border: none;
+			padding: 15px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-bottom: 5px;
+		    background: #45404c !important;
+    		color: white;
+		}
+		.form-check-holder {
+			display: inline-block;
+			text-align: center;
+			margin: 20px;
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 14px;
+
+		}
+
+		.outerline {
+			text-align: center;
+		}
+
+		.nav-right {
+			float: right;
+		}
+
+		.mid-image {
+			width: 150px;
+		}
+
+		.page-heading {
+			color: #bd7171; font-size: 30px; margin-top: 60px;
+		}
+
+		.alt-heading {
+			color: #fff; font-size: 40px;
+		}
+
+		.errors {
+			color:#ff6c6c;
+		}
+
+		.button-parent {
+			text-align: center;
+		}
